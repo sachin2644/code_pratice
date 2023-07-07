@@ -14,12 +14,21 @@ int main()
             cin>>arr[i][j];
         }
     }
-    cout<<"displaying 2-D array elements \n";
+    cout<<"displaying 2-D array elements row \n";
     for(i=0;i<row;i++)
     {
         for(j=0;j<col;j++)
         {
-            cout<<" "<<arr[i][j];
+            cout<<arr[i][j]<<" ";
+        }
+        cout<<"\n";
+    }
+    cout<<"displaying 2-D array elements col \n";
+    for(i=0;i<col;i++)
+    {
+        for(j=0;j<row;j++)
+        {
+            cout<<arr[j][i]<<" ";
         }
         cout<<"\n";
     }
